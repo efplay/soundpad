@@ -1,0 +1,114 @@
+@import url(https://fonts.googleapis.com/css2?family=Doto:wght@100..900&family=Geo:ital@0;1&family=Kablammo&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Pixelify+Sans:wght@400..700&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap);
+
+
+body{
+    font-family: "Pixelify Sans", serif;
+    text-align: center;
+    margin: 0;
+    height: 100vh;
+    display:inline-block;
+    background: linear-gradient(to bottom, rgb(72, 46, 100),rgb(222, 222, 222) );
+}
+
+h1 {
+    background-image: url(https://i.pinimg.com/originals/18/af/aa/18afaa5a50a6ff0bbb825a11d505ecbb.gif);
+    color: aliceblue;
+    padding: 10px 20px;
+    text-align: center;
+    position: relative;
+    display: block;
+    width: 40%;
+    margin: 0 auto;
+    font-size: 30px;
+}
+
+
+form {
+    margin-top: 20px; 
+    border-radius: 45px;
+    border: 0.5px solid rgb(150, 77, 177);
+    height: 100px;
+    background-size: cover;
+    background-position: center;
+    width: 300px;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to right, rgb(65, 59, 79), rgb(51, 41, 81));
+}
+
+.volume {
+    margin-top: 35px;
+    font-size: 24px;
+    color: rgb(238, 238, 238);
+}
+
+
+input[type="range"] {
+  width: 50%;
+  height: 10px;
+}
+
+input[type="range"]::after{
+    background: #622d97;
+}
+    
+
+
+article {
+    display: block;
+    padding: 10px;
+    border-top: 5px solid ;
+    border-right: 3px solid ;
+    border-left: 3px solid ;
+    border-bottom: 2px solid ;
+    border-image: linear-gradient(to bottom, rgb(72, 46, 100),rgb(197, 194, 194)  ) 1 ;
+}
+
+.keys{
+    margin: 0;
+    max-width: 600;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+
+
+.key {
+    width: 150px;
+    height: 150px;
+    float: left;
+    transition: all 0.7s;
+    border-radius: 30%;
+    margin: 20px;
+    color: white;
+    background: linear-gradient(to right, rgb(65, 59, 79), rgb(51, 41, 81));
+}
+
+.key:active{
+    transform: scale(0.8,0.8);
+}   
+.key.playing {
+    transform: scale(0.8,0.8);
+    transition: transform 0.2s;
+    background: linear-gradient(to right, rgb(85, 75, 100), rgb(61, 51, 100)); /* Меняем фон для наглядности */
+}
+
+.key i{
+    font-size: 44px;
+    transition: transform 0.2s ease;
+}
+
+.key:active i{
+    transform: scale(0.5);
+}
+
+kbd{
+    display: block;
+    padding-top: 30px;
+    font-size: 60px;
+    color: #622d97;
+}
+
+
+
