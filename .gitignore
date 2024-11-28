@@ -3,3 +3,75 @@
 
 # Ada Library Information
 *.ali
+
+
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Logs
+*.log
+logs/
+*.pid
+*.seed
+*.pid.lock
+
+# Dependency directories
+bower_components/
+
+# Build outputs
+dist/
+build/
+out/
+*.out
+*.js.map
+*.css.map
+
+# Editors
+/.idea/
+/.vscode/
+/*.sublime-workspace
+*.iml
+
+# OS files
+.DS_Store
+Thumbs.db
+*.swp
+*.bak
+*.tmp
+*.~*
+
+# Tests
+/coverage/
+*.spec.js
+*.test.js
+
+# Environment variables
+.env
+.env.*.local
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+*.temp
+
+# Other
+*.zip
+*.tar
+*.rar
+*.gz
+*.7z
+
+# Specific to Soundpad
+soundpad.db
+*.db-shm
+*.db-wal
+*.sqlite
+*.bak
