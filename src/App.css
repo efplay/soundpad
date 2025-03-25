@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Doto:wght@100..900&family=Geo:ital@0;1&family=Kablammo&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Pixelify+Sans:wght@400..700&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+body {
+    font-family: "Pixelify Sans", serif;
+    text-align: center;
+    margin: 0;
+    height: 100vh;
+    background: linear-gradient(to bottom, rgb(72, 46, 100), rgb(222, 222, 222));
+}
+
+h1 {
+    background-image: url(https://i.pinimg.com/originals/18/af/aa/18afaa5a50a6ff0bbb825a11d505ecbb.gif);
+    color: aliceblue;
+    padding: 10px 20px;
+    text-align: center;
+    position: relative;
+    display: block;
+    width: 40%;
+    margin: 20px auto;
+    font-size: 30px;
+    border-radius: 10px;
+}
+
+form {
+    margin-top: 20px;
+    border-radius: 45px;
+    border: 0.5px solid rgb(150, 77, 177);
+    height: 100px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to right, rgb(65, 59, 79), rgb(51, 41, 81));
+}
+
+.volume {
+    font-size: 24px;
+    color: rgb(238, 238, 238);
+}
+
+input[type="range"] {
+    width: 50%;
+    height: 10px;
+    cursor: pointer;
+}
+
+article {
+    padding: 10px;
+    border-top: 5px solid;
+    border-right: 3px solid;
+    border-left: 3px solid;
+    border-bottom: 2px solid;
+    border-image: linear-gradient(to bottom, rgb(72, 46, 100), rgb(197, 194, 194)) 1;
+}
+
+.keys {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.key {
+    width: 120px;
+    height: 120px;
+    transition: all 0.3s;
+    border-radius: 20%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(to right, rgb(65, 59, 79), rgb(51, 41, 81));
+    cursor: pointer;
+}
+
+.key:active,
+.key.playing {
+    transform: scale(0.9);
+    background: linear-gradient(to right, rgb(85, 75, 100), rgb(61, 51, 100));
+}
+
+.key i {
+    font-size: 44px;
+    transition: transform 0.2s ease;
+}
+
+kbd {
+    display: block;
+    font-size: 30px;
+    color: #622d97;
+}
